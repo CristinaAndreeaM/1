@@ -35,7 +35,8 @@ public class Biblioteca {
             System.out.println("Alegeti autorul :\n");
             System.out.println("1.Nora Roberts");
             int optiuneAutor = sc.nextInt();
-            if (optiuneAutor == 1) {
+            if (optiuneAutor == 1)
+            {
                 boolean ok = false;
                 for (int i = 0; i <= 7; i++)
                     if (carti[i]._categorie.equals("Romantic") && carti[i]._autori._nume.equals("Nora Roberts")) {

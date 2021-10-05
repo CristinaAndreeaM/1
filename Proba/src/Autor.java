@@ -10,6 +10,18 @@ public class Autor
         _varsta=varsta;
         _anulDebut=anDebut;
     }
+    public void setNume(String nume)
+    {
+        _nume=nume;
+    }
+    public void setVarsta(int varsta)
+    {
+        _varsta=varsta;
+    }
+    public void setAnDebut(int anDebut)
+    {
+        _anulDebut=anDebut;
+    }
     public String getNume()
     {
         return _nume;
